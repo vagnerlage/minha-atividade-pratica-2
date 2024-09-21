@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center p-4">
+        <h1>Minha Atividade Prática X</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao1">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao2">Histórico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao3">Perspectivas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <section id="secao1" class="mb-4">
+            <div class="bg-light p-3">
+                <h2>Sobre</h2>
+                <p>Trata-se de uma atividade de desenvolvimento de site</p>
+            </div>
+        </section>
+
+        <section id="secao2" class="mb-4">
+            <div class="bg-light p-3">
+                <h2>Histórico</h2>
+                <p>Outras duas atividades já foram realizadas</p>
+            </div>
+        </section>
+
+        <section id="secao3" class="mb-4">
+            <div class="bg-light p-3">
+                <h2>Perspectivas</h2>
+                <p>Falta apenas mais uma para conclusão do módulo</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; <span id="ano"></span> Minha Atividade Prática X. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
